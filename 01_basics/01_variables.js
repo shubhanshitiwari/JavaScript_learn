@@ -15,6 +15,6 @@ console.log(accountId);
 accountEmail="sadgmail.com"
 accountPassword=232323
 accountCity="Bhopal"
-let accountState; //undefined: value is nnot defined
+let accountState; //undefined: value is not defined
 
 console.table([accountEmail,accountPassword,accountCity,accountState]);
