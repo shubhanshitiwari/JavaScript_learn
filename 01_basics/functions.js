@@ -53,5 +53,26 @@ const array1=[100,200,300,400]
 function return2value(getarray){
     console.log(getarray[0])
 }
+const chai = () => {
+    console.log('hello world')
+    console.log(this)
+}
 
+chai()
+//hello world
+//{}
+
+const addTwo = (num1,num2) =>{
+    return num1+num2;
+}
+console.log(addTwo(3,4))
+
+// const one = (num1,num2) => num1+num2
+// const one = (num1,num2) => (num1+num2)
+const one = (num1,num2) => ({num1:0,num2:9})
+console.log(one(7,8))
+
+const myarr = [2,3,4,5]
+
+myarr.forEach(() =>)
 console.log(return2value(array1))
