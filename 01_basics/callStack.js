@@ -25,5 +25,8 @@ let result2= addNum(10,2)
 
 
 // val1=10
+//LIFO -- LAST IN FIRST OUT
+
+
 //val2=5
 //addNum === box //memory phasse // exection phase --- //parnet EC --DELETION 
