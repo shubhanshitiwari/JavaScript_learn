@@ -22,6 +22,7 @@ for (let i=1;i<=11;i++){
         console.log(j,i)
     }
 }
+
 //outer 1 inner termination
 
 let arr=["we","are","human","are","we","?"]
@@ -45,3 +46,22 @@ for(let i=1;i<=20;i++){
     }    
     console.log(`elements are ${i}`) // not gonna print in 5 
 }
+//while
+let i=0
+while ( i<= 10){
+   console.log(`value ${i}`) ;
+   i++
+}
+
+//while
+let arr=["we","are","human","are","we","?"]
+let i=1
+while(i<arr.length){
+    console.log(arr[i])
+    i=i+1
+}
+let score=11
+do{
+    console.log(`score is ${score}`)
+    score++
+}while(score<=10);
