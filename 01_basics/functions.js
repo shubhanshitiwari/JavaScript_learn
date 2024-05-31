@@ -76,3 +76,166 @@ const myarr = [2,3,4,5]
 
 myarr.forEach(() =>)
 console.log(return2value(array1))
+
+
+//higher order 
+// const coding=[1,2,3,4,5,6]
+// coding.forEach(  (item) => {console.log(item)} ) //no name in call back function
+//()=>{}
+// greet=()=>{}
+
+// function printMe(item){
+//     console.log(item)
+// }
+// const coding=[1,2,3,4,5,6]
+// coding.forEach(  printMe )
+
+// coding.forEach((item,index,arr)=>{
+//     console.log(item,index,arr);
+// })
+
+// [{},{},{}]
+
+// const mycoding=[
+//     {
+//     languageName:"javascript",
+//     languageFileName:"js"
+// },{
+//     languageName:"python",
+//     languageFileName:"py"
+// },{
+//     languageName:"java",
+//     languageFileName:"java"
+// }
+// ]
+// mycoding.forEach((item)=>{
+//     console.log(item.languageName);
+// })
+
+const coding=[1,2,3,4,5,6,7,8,9,10]
+
+// const values = coding.forEach((item)=>{
+//     console.log(item)
+//     return item
+// })
+// console.log(values) //undefined
+// donot return any value
+
+// const values=coding.filter((num)=> num>5)
+// console.log(values)
+
+// const values=coding.filter((num)=> {return num>4})
+// console.log(values)
+
+// const newcoding=[]
+
+// coding.forEach((num) => {
+//     if(num>4){
+//         newcoding.push(num)
+//     }
+// })
+// console.log(newcoding)
+
+
+
+// const mycoding=[
+//     {
+//     languageName:"javascript",
+//     languageFileName:"js"
+// },{
+//     languageName:"python",
+//     languageFileName:"py"
+// },{
+//     languageName:"java",
+//     languageFileName:"java"
+// }
+// ]
+
+// const userBooks =mycoding.filter((bk)=> bk.languageFileName==="py")
+// console.log(userBooks);
+//[ { languageName: 'python', languageFileName: 'py' } ]
+
+// const userBooks =mycoding.filter((bk)=>{ return bk.publish>=2000})
+// console.log(userBooks);
+
+// const userBooks =mycoding.filter((bk)=>{
+//     return bk.publish>=2000 && bk.genre==="history"})
+// console.log(userBooks);
+
+// const myNum=[1,2,3]
+
+// const newnums=myNumers.map((num) => {return num+10})
+// console.log(newnums)
+
+//undefined --- empty array 
+
+// const newnums = myNumers.filter((num) => {return num+10})
+// console.log(newnums)
+
+//chaining 
+// const newNums = myNumers
+//                 .map((num) => {return num*10})
+//                 .map((num) => {return num+1})
+//                 .filter((num) => num>=40)
+
+// console.log(newNums)
+
+
+//nine.js
+//reducer
+//accumulator -- empty variable 
+//intialvalue -- onfirst ex. accumulator 
+
+const myNum=[1,2,3]
+
+// const New= myNum.reduce((acc,currval) => {
+//     console.log(`acc ${acc}`)
+//     return acc+currval
+// },0)/
+
+// const New = myNum.reduce((acc,currval) => {return acc+currval},0)
+
+// console.log(New)
+
+
+const shoppingCart=[
+    {
+        itemName:"js",
+        price:2300
+    },{
+        itemName:"data",
+        price:2300
+    },{
+        itemName:"python",
+        price:2300
+    }]
+
+const total=shoppingCart
+.reduce((acc,item) =>{return acc+item.price},0)
+console.log(total)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
